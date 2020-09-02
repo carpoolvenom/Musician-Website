@@ -1,0 +1,66 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ .container{
+     height: 100vh;
+     width: 100;
+     background-image: url(background2.jpg) ;
+     background-position: center;
+     background-size: cover;
+     padding-left: 5%;
+     padding-right: 5%;
+     box-sizing: border-box;
+     position: relative;
+ }
+ .navbar{
+     width: 100%;
+     height: 15vh;
+     margin: auto;
+     display: flex;
+     align-items: center;
+ }
+ .logo{
+     width: 160px;
+     cursor: pointer;
+ }
+ .Youtube{
+    width: 40px;
+    cursor: pointer;
+}
+.nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #121212;
+}
+.content .button{
+    display: inline-block;
+    background: linear-gradient(45deg, #ff77);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #f00f78;
+    box-shadow: 3px 8px 22px rgba(red, green, blue, alpha);
+}
+.feature-img{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
